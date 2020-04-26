@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* 元素选择器 */
+        html {
+            background-color: rgba(0,0,0,0);
+        }
+        header {
+            padding: 40px;
+            background-color: rgba(0,0,0,0);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.6em;
+            color: grey;
+            background-color: rgba(0,0,0,0);
+        }
+
+        /* 类选择器 */
+        .main {
+            margin: 10px;
+            background-color: rgba(0,0,0,0);
+        }
+        .newsSection {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(0,0,0,0);
+        }
+        /* ********** BEIGN ********** */
+        /*选择menu元素下的li子元素*/
+        #menu li {
+            float: left;
+            width: 70px;
+            font-size: 1.2em;
+            font-weight: lighter;
+            background-color: rgba(0,0,0,0);
+        }
+        /*选择menu元素下的li子元素和li下得a子元素*/
+        #menu li, li a {
+            list-style: none;
+            text-decoration: none;
+            background-color: rgba(0,0,0,0);
+            color: white;
+        }
+        #footer{
+           text-align: center;
+        }
+        menu li,li a:hover{
+            color: #ff1318;
+        }
+        #chosen {
+            color: white;
+        }
+        #news {
+            color:white;
+        }
+        #finance {
+            color:white;
+        }
+        #think {
+            color:white;
+        }
+        #life {
+            color:white;
+        }
+        /* ********** END ********** */
+    </style>
+</head>
+<body>
+<iframe src="lizi.html" frameborder="0" width="100%" height="100%" style="z-index: -1;width:100%;position: fixed"></iframe><!--使得一个html成为另一个html的背景-->
+<!--<bodylink="pink"alink="blue"vlink="red">-->
+<div class="main">
+    <!-- ********** BEGIN ********** -->
+    <header id="menu">
+        <!-- ********** END ********** -->
+        <li><a href="#chosen" >精选</a></li>
+        <li><a href="#news">时事</a></li>
+        <li><a href="#finance">财政</a></li>
+        <li><a href="#think">思想</a></li>
+        <li><a href="#life">生活</a></li>
+    </header>
+
+    <div class="newsSection">
+        <section>
+            <h2 id="chosen">精选</h2>
+            <li><a href="">精选新闻</a> </li>
+        </section>
+        <section>
+            <h2 id="news">时事</h2>
+            <li><a href="">时事新闻</a></li>
+        </section>
+        <section>
+            <h2 id="finance">财政</h2>
+            <li><a href="">财政新闻</a></li>
+        </section>
+        <section>
+            <h2 id="think">思想</h2>
+            <li><a href="">思想新闻</a></li>
+
+        </section>
+        <section>
+            <h2 id="life">生活</h2>
+            <li><a href="">生活新闻</a></li>
+
+        </section>
+    </div>
+    <footer id="footer">ly的个人网页</footer>
+</div>
+
+</body>
+</html>
